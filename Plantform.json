@@ -1,0 +1,39 @@
+{    "level0": [
+        {"x":0,"y":500,"width":2000, "height":1000}, 
+        {"x":100,"y":400,"width":100, "height":50},
+        {"x":250,"y":300,"width":100, "height":50},
+        {"x":400,"y":200,"width":100, "height":50},
+        {"x":800,"y":200,"width":100, "height":50}],
+    "level1": [
+        {"x":0,"y":500,"width":2000, "height":1000}, 
+        {"x":100,"y":200,"width":100, "height":50}, 
+        {"x":300,"y":300,"width":100, "height":50},
+        {"x":500,"y":400,"width":100, "height":50},
+        {"x":700,"y":300,"width":100, "height":50},
+        {"x":900,"y":200,"width":100, "height":50}],
+    "level2": [
+        {"x":0,"y":500,"width":2000, "height":1000}, 
+        {"x":100,"y":400,"width":100, "height":50}, 
+        {"x":300,"y":300,"width":100, "height":50},
+        {"x":500,"y":200,"width":100, "height":50},
+        {"x":700,"y":300,"width":100, "height":50},
+        {"x":900,"y":400,"width":100, "height":50}],
+    "level3": [
+        {"x":0,"y":500,"width":2000, "height":1000}, 
+        {"x":100,"y":200,"width":100, "height":50}, 
+        {"x":300,"y":300,"width":100, "height":50},
+        {"x":500,"y":200,"width":100, "height":50},
+        {"x":500,"y":400,"width":100, "height":50},
+        {"x":700,"y":300,"width":100, "height":50},
+        {"x":900,"y":200,"width":100, "height":50}],
+    "sound": {
+        "background":{"src":"http://149.153.106.114:8000/Audio/Music.mp3","volume": 1, "loop": true, "play": false },
+        "shot":{"src":"http://149.153.106.114:8000/Audio/Shot.mp3","volume": 0.5, "loop": false, "play": false},
+        "shot2":{"src":"http://149.153.106.114:8000/Audio/Shot2.mp3","volume": 0.5, "loop": false, "play": false},
+        "reload":{"src":"http://149.153.106.114:8000/Audio/Reload.mp3","volume": 0.5, "loop": false, "play": false},
+        "empty":{"src":"http://149.153.106.114:8000/Audio/Empty.mp3","volume": 0.5, "loop": false, "play": false},
+        "empty2":{"src":"http://149.153.106.114:8000/Audio/Empty.mp3","volume": 0.5, "loop": false, "play": false}
+    },
+    "player":{"x": 100, "y": 0},
+    "enemy":{"x": 900, "y": 0}
+}
